@@ -1,16 +1,19 @@
 # Day 25: Undoing Mistakes & Branching Strategies
 
 ## Task 1: Git Reset
+```bash
 ### 1. Difference between --soft, --mixed, and --hard:
-* **--soft**: Moves the HEAD pointer back to a previous commit, but leaves your files changed and **staged** (ready to be committed again).
-* **--mixed (Default)**: Moves the HEAD back and **unstages** your changes. Your work is still in the folder, but you have to `git add` them again.
-* **--hard**: Moves the HEAD back and **deletes all changes** in the staging area and working directory. Your files revert exactly to how they were at that commit.
+--soft : Moves the HEAD pointer back to a previous commit, but leaves your files changed and **staged** (ready to be committed again).
+
+--mixed : Moves the HEAD back and **unstages** your changes. Your work is still in the folder, but you have to `git add` them again.
+
+--hard : Moves the HEAD back and **deletes all changes** in the staging area and working directory. Your files revert exactly to how they were at that commit.
 
 ### 2. Which one is destructive?
-**--hard** is destructive. It permanently deletes any uncommitted work in your working directory. Use it with extreme caution.
+--hard is destructive. It permanently deletes any uncommitted work in your working directory. Use it with extreme caution.
 
 ### 3. Should you use reset on pushed commits?
-**No.** Reset rewrites history. If you push a reset that deletes commits others have already pulled, it will cause major synchronization errors for the rest of the team.
+No.Reset rewrites history. If you push a reset that deletes commits others have already pulled, it will cause major synchronization errors for the rest of the team.
 
 ## Task 2: Git Revert
 ### 1. How is revert different from reset?
@@ -18,7 +21,7 @@ Reset moves the timeline backward (deleting history), whereas **revert** moves t
 
 ### 2. Why is revert safer?
 Because it doesn't delete anything from the history. It is a "public-friendly" undo that plays nicely with shared branches and remote repositories.
-
+```
 ## Task 3: Comparison Table
 
 | Feature | git reset | git revert |
