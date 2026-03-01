@@ -31,4 +31,4 @@ First, run `gh pr list` to find the PR number. Then:
 In a CI/CD pipeline, these commands allow you to:
 * **Triggering:** Use `gh workflow run` to manually kick off a deployment script.
 * **Monitoring:** Use `gh run watch` in a terminal window to see the real-time progress of a build without refreshing a browser page.
-* **Logging:** Use `gh run view --log` to fetch failure logs directly into your terminal for quick debugging.
+* **Logging:** Use `gh run view --log` to fetch failure logs directly into your terminal for quick debugging
