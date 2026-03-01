@@ -1,8 +1,7 @@
-# Day 22: Git Fundamentals Notes
+# Day 22: Git Fundamentals Notes - Git Workflow Questions
 
-## Git Workflow Questions
-
-### 1. What is the difference between `git add` and `git commit`?
+### What is the difference between `git add` and `git commit`?
+```bash
 `git add` moves changes from the working directory to the **staging area**, essentially marking them to be included in the next "snapshot." `git commit` takes everything in the staging area and permanently records it into the **repository history**.
 
 ### 2. What does the staging area do? Why doesn't Git just commit directly?
@@ -21,4 +20,6 @@ The `.git/` folder is the "brain" of the repository. It contains all the metadat
 ### 5. What is the difference between a working directory, staging area, and repository?
 * **Working Directory:** The actual files you see and edit on your computer.
 * **Staging Area:** A hidden file that lists what changes are prepared for the next commit.
-* **Repository:** The permanent database (inside `.git/`) that stores all versions of your project.
+* **Repository:** The permanent database (inside `.git/`) that stores all versions of your project
+
+```
