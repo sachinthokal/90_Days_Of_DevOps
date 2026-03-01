@@ -42,4 +42,4 @@ Git updates your **Working Directory** to match the snapshot of the branch you s
 You add the original repository as a remote named `upstream`, fetch the changes, and merge them:
 1. `git remote add upstream <original-repo-url>`
 2. `git fetch upstream`
-3. `git merge upstream/main`
+3. `git merge upstream/main`.
