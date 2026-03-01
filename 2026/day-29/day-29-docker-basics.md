@@ -57,4 +57,4 @@ Command: `docker run -it ubuntu bash`
 
 ### Viewing Logs & Executing Commands
 * **Logs:** `docker logs web-server` allowed me to see the HTTP request history.
-* **Exec:** `docker exec -it web-server ls /etc/nginx` allowed me to look at the configuration files without stopping the running server.
+* **Exec:** `docker exec -it web-server ls /etc/nginx` allowed me to look at the configuration files without stopping the running servers.
