@@ -50,4 +50,4 @@ Use stash when you are halfway through a feature and a "hotfix" emergency comes 
 Cherry-picking allows you to grab a **single commit** from one branch and apply it to another, without merging the entire branch.
 
 ### 2. Use case:
-If you accidentally fixed a critical bug on a "experimental" branch that isn't ready for release yet, you can cherry-pick just that bug-fix commit into `main`.
+If you accidentally fixed a critical bug on a "experimental" branch that isn't ready for release yet, you can cherry-pick just that bug-fix commit into `main`
