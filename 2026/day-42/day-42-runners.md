@@ -84,3 +84,4 @@ jobs:
 | Good for | Standard builds, quick setups, and public projects. | Specialized hardware |
 | Security concern | Low | High |
 ---
+---
